@@ -553,3 +553,264 @@ video {
 [hidden]:where(:not([hidden="until-found"])) {
   display: none;
 }
+
+body::before {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 50;
+  display: block;
+  width: 100%;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 249 195 / var(--tw-bg-opacity, 1));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  text-align: center;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.75rem;
+  line-height: 1rem;
+  --tw-content: 'X-Small <576px';
+  content: var(--tw-content);
+}
+
+body {
+  margin: 0px;
+}
+
+@media (min-width: 576px) {
+  body::before {
+    --tw-content: 'Small sm ≥576px';
+    content: var(--tw-content);
+  }
+}
+
+@media (min-width: 768px) {
+  body::before {
+    --tw-content: 'Medium md ≥768px';
+    content: var(--tw-content);
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    --tw-content: 'Large lg ≥992px';
+    content: var(--tw-content);
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    --tw-content: 'Extra large xl ≥1200px';
+    content: var(--tw-content);
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    --tw-content: 'Extra extra large xxl ≥1400px';
+    content: var(--tw-content);
+  }
+}
+
+.absolute {
+  position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.bottom-\[-5\%\] {
+  bottom: -5%;
+}
+
+.right-\[7\%\] {
+  right: 7%;
+}
+
+.row-start-4 {
+  grid-row-start: 4;
+}
+
+.row-end-5 {
+  grid-row-end: 5;
+}
+
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
+.flex {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-4 {
+  grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.bg-myyellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(242 218 145 / var(--tw-bg-opacity, 1));
+}
+
+.bg-moiPC {
+  background-image: url('../assets/images/susana.jpg');
+}
+
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pl-14 {
+  padding-left: 3.5rem;
+}
+
+.pl-1 {
+  padding-left: 0.25rem;
+}
+
+.pl-3 {
+  padding-left: 0.75rem;
+}
+
+.font-annuario {
+  font-family: annuario-variable, sans-serif;
+}
+
+.font-aqva {
+  font-family: rl-aqva, sans-serif;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-bouton {
+  font-size: clamp(0.625rem, 0.525rem + 0.5vw, 0.875rem);
+}
+
+.text-legend {
+  font-size: clamp(0.625rem, 0.4167rem + 1.0417vw, 1rem);
+}
+
+.text-texte {
+  font-size: clamp(0.875rem, 0.7rem + 0.875vw, 1.25rem);
+}
+
+.text-titre {
+  font-size: clamp(1.5rem, 1rem + 2.5vw, 2.5rem);
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.text-mybeige {
+  --tw-text-opacity: 1;
+  color: rgb(252 252 245 / var(--tw-text-opacity, 1));
+}
+
+.text-mydarkblue {
+  --tw-text-opacity: 1;
+  color: rgb(65 91 104 / var(--tw-text-opacity, 1));
+}
+
+.text-myyellow {
+  --tw-text-opacity: 1;
+  color: rgb(242 218 145 / var(--tw-text-opacity, 1));
+}
+
+.condensed {
+  font-variation-settings: "wdth" 20, "wght" 700;
+}
+
+.extended {
+  font-variation-settings: "wdth" 400, "wght" 700;
+}
+
+@media (min-width: 576px) {
+  .sm\:pl-1 {
+    padding-left: 0.25rem;
+  }
+
+  .sm\:pl-14 {
+    padding-left: 3.5rem;
+  }
+}
