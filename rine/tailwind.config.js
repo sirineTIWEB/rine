@@ -15,6 +15,7 @@ module.exports = {
         'titre': 'clamp(1.5rem, 1rem + 2.5vw, 2.5rem)',
         'texte': 'clamp(0.875rem, 0.7rem + 0.875vw, 1.25rem)',
         'bouton': 'clamp(0.625rem, 0.525rem + 0.5vw, 0.875rem)',
+        'soustitre': 'clamp(1rem, 0.625rem + 1.3333vw, 1.75rem)',  
         
       },
       fontFamily: {
